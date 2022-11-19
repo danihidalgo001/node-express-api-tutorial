@@ -1,0 +1,8 @@
+{
+  "grading": "incremental",
+  "difficulty": "easy",
+  "duration": 8,
+  "description": "This is an interactive tutorial that will teach you how to create an API with node",
+  "title": "Node API Tutorial",
+  "slug": "node-api-tutorial"
+}
