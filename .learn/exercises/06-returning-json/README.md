@@ -27,7 +27,7 @@ todos = [
 [ { "label": "Drink some water", "done": false } ]
 ```
 
-2. Add a new GET request with the following code (This will include the list of todos we just created):
+2. Add a new `GET /todos` request with the following code (This will include the list of todos we just created):
 
 ```js
 app.get('/todos', (req, res) => {

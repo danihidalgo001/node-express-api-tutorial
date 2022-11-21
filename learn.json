@@ -4,5 +4,23 @@
   "duration": 8,
   "description": "This is an interactive tutorial that will teach you how to create an API with node",
   "title": "Node API Tutorial",
-  "slug": "node-api-tutorial"
+  "slug": "node-api-tutorial",
+  "disabledActions": [
+    "build"
+  ],
+  "projectType": "tutorial",
+  "videoSolutions": false,
+  "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+  "technologies": [
+    "javascript",
+    "node",
+    "express",
+    "command-line",
+    "APIs",
+    "REST"
+  ],
+  "editor": {
+    "version": "1.0.73"
+  },
+  "autoPlay": true
 }

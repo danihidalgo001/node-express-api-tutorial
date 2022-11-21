@@ -1,21 +1,25 @@
-# `02` Installing Express
+# `08` Delete Todo 
 
-In this case, we are going to install **ExpressJS** which is the framework we are going to use 
+In order to delete items from our database, we use the `DELETE` method. In this exercise, we are going to add a `DELETE /todos` method that will receive the position of the element we want to delete and it will remove it from the `todos` list.
+
+Here is an example of a DELETE request:
+
+```js
+app.delete('/signup/:userId', (req, res) => {
+  const userId = req.params.userId;
+  users = users.filter((value, position) => position !== userId)
+  res.status(200).json(users);
+})
+```
 
 ## 📝 Instructions:
 
-1. Check if NodeJS is installed by running this command: `node -v`. It should return the version like this:
+1. Create a `DELETE /todos/:todoPosition` request.
 
-```bash
-v.16.14.0
-```
+2. In the request, remove the todo in the position given by the url parameter.
 
-2. If it didn't show the version, it means that it's not installed, then you can follow these steps to install it:
+## 💡 Hint:
 
-    - Go to https://nodejs.org
++ You can test the API using postman [https://www.postman.com/](https://www.postman.com/)
 
-    - Download the recommended version.
-
-    - Run the installer.
-
-    - Accept terms and conditions and next, next, next...
++ Make sure the port is public.

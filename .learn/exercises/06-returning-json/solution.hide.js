@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 
+app.use(express.json());
+
 let todos = [
   { "label": "Drink some water", "done": false },
   { "label": "Do my homework", "done": false }

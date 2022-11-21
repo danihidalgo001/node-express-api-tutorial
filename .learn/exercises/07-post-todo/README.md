@@ -14,7 +14,7 @@ app.post('/signup', (req, res) => {
 
 ## 📝 Instructions:
 
-1. Create a POST request that receives a `todo` from the body.
+1. Create a `POST /todos` request that receives a `todo` from the body.
 
 2. In the request, add that `todo` to the list of `todos`, then return the `todos` list updated.
 

@@ -1,21 +1,19 @@
-# `02` Installing Express
+# `07.1` Check post todo
 
-In this case, we are going to install **ExpressJS** which is the framework we are going to use 
+This is what you have so far about the `POST /todos` endpoint, take some time to analyze each line:
 
-## 📝 Instructions:
-
-1. Check if NodeJS is installed by running this command: `node -v`. It should return the version like this:
-
-```bash
-v.16.14.0
+```js
+app.post('/todos', (req, res) => {
+  let todo = req.body;
+  todos.push(todo);
+  res.status(200).json(todos);
+})
 ```
 
-2. If it didn't show the version, it means that it's not installed, then you can follow these steps to install it:
+Use Postman, Insomnia or any other API Request Builder that you like to test your API.
 
-    - Go to https://nodejs.org
-
-    - Download the recommended version.
-
-    - Run the installer.
-
-    - Accept terms and conditions and next, next, next...
+|  |  |
+| ------ | -------- |
+| Method | Post |
+| URL: | /todos |
+| Request Body | `{ "done": true, "label": "Start node API tutorial" }` |
