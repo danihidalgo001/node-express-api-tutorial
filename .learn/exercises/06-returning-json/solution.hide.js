@@ -7,18 +7,11 @@ let todos = [
 ]
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send("Hello World!")
 })
 
 app.get('/todos', (req, res) => {
   res.status(200).json(todos)
-})
-
-app.post('/todos', (req, res) => {
-  
-  console.log(req.body.label)
-
-  res.status(200).json("todos");
 })
 
 const server = app.listen(8080, function () {

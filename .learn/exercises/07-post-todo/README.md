@@ -1,21 +1,25 @@
-# `02` Installing Express
+# `07` Post Todo 
 
-In this case, we are going to install **ExpressJS** which is the framework we are going to use 
+In a normal API if we want to add new items to our database, we have to use the POST request. In this exercise we are going to add a POST request to our API that will receive a todo (object with the properties `label` and `done`), and we are going to add into the todos list.
+
+Here is an example of a POST request:
+
+```js
+app.post('/signup', (req, res) => {
+  const user = req.body;
+  users.push(user);
+  res.status(200).json(users);
+})
+```
 
 ## 📝 Instructions:
 
-1. Check if NodeJS is installed by running this command: `node -v`. It should return the version like this:
+1. Create a POST request that receives a `todo` from the body.
 
-```bash
-v.16.14.0
-```
+2. In the request, add that `todo` to the list of `todos`, then return the `todos` list updated.
 
-2. If it didn't show the version, it means that it's not installed, then you can follow these steps to install it:
+## 💡 Hint:
 
-    - Go to https://nodejs.org
++ You can test the API using postman [https://www.postman.com/](https://www.postman.com/)
 
-    - Download the recommended version.
-
-    - Run the installer.
-
-    - Accept terms and conditions and next, next, next...
++ Make sure the port is public.

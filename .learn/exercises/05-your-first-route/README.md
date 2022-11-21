@@ -12,5 +12,6 @@ app.get('/', (req, res) => {
 })
 ```
 
-2. Now if you open the port 8080 you should be able to see `Hello World!`.
+> This is a GET request that will return the string: `Hello World!`
 
+2. Now if you open the port 8080 you should be able to see `Hello World!`.
