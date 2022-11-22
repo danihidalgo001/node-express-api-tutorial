@@ -5,6 +5,7 @@
   "description": "This is an interactive tutorial that will teach you how to create an API with node",
   "title": "Node API Tutorial",
   "slug": "node-api-tutorial",
+  "preview": "https://github.com/4GeeksAcademy/node-api-tutorial/blob/master/.learn/assets/preview.png",
   "disabledActions": [
     "build"
   ],
