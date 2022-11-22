@@ -1,6 +1,7 @@
 {
   "grading": "incremental",
   "difficulty": "easy",
+  "repository": "https://github.com/4GeeksAcademy/node-api-tutorial",
   "duration": 8,
   "description": "This is an interactive tutorial that will teach you how to create an API with node",
   "title": "Node API Tutorial",
