@@ -1,10 +1,10 @@
-# Bienvenido al tutorial de API de nodo
+# Bienvenido al tutorial de API de Node
 
 Este es un tutorial interactivo que le enseñará cómo crear una API con Node y Express.
 
-> Has inicializado los ejercicios con gradeing=`incremental`; lo que significa que sus alumnos completarán un solo tutorial con pasos claros y autocalificados de principio a fin.
+> Has inicializado los ejercicios con grading=`incremental`; lo que significa que sus alumnos completarán un solo tutorial con pasos claros y autocalificados de principio a fin.
 
-## 🌱  Cómo iniciar este proyecto
+## 🌱 Cómo iniciar este proyecto?
 
 Este proyecto viene con los archivos necesarios para empezar a trabajar, pero tienes dos opciones para empezar:
 
@@ -31,7 +31,8 @@ DELETE /todos/<int:position>
 
 ### GET /todos
 
-Devolverá una lista con to-dos o tareas, así:
+Devolverá una lista con To Dos o tareas, así:
+
 ```javascript
 [
     {
@@ -47,7 +48,7 @@ Devolverá una lista con to-dos o tareas, así:
 
 ### POST /todos
 
-Agregará una nueva tarea o to-do a la lista, y recibirá el siguiente request body:
+Agregará una nueva tarea o To Do a la lista, y recibirá el siguiente request body:
 
 ```javascript
 {
@@ -56,7 +57,7 @@ Agregará una nueva tarea o to-do a la lista, y recibirá el siguiente request b
 }
 ```
 
-Y devolverá la lista de tareas o to-dos actualizada.
+Y devolverá la lista de tareas o To Dos actualizada.
 
 ### DELETE /todos/<int:position>
 
