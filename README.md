@@ -4,7 +4,7 @@ This is an interactive tutorial that will teach you how to create an API with No
 
 > You have initialized the exercises with grading=`incremental`; meaning that your students will complete one single tutorial with clear and autograded steps from beginning to end.
 
-## 🌱  How to start this project
+## 🌱 How to start this project?
 
 This project comes with the necessary files to start working, but you have two options to start:
 
