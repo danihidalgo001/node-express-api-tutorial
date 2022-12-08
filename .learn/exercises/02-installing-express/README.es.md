@@ -1,24 +1,15 @@
-# `01` Hello World
+# `02` Installing Express
 
-Puedes tener un archivo README el cual será como una página de un libro, sin archivos de código.
+En este caso, instalaremos **ExpressJS**, que es el marco que usaremos para crear nuestra API.
 
-También puedes agregar un archivo `README.[lenguaje].md` para traducciones, por ejemplo `README.es.md` para español.
+## 📝 Instrucciones:
 
-## Inserta videos
+1. Instalemos express ejecutando el siguiente comando:
 
-Si quieres incluir algún video introductorio para cada ejercicio, agrega la propiedad `intro` en el inicio del README.md para ese ejercicio en particular:
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
+```bash
+npm install express --save-dev
 ```
 
-Tambien puedes agregar un video explicando la solución para cada ejercicio agregando la propiedad `tutorial` al inicio del markdown del README.md correspondiente:
+## 💡 Pista:
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
++ Estamos usando `--save-dev` para mantener express como parte de nuestro proyecto, por lo que de ahora en adelante formará parte de las dependencias que siempre estarán instaladas.

@@ -1,6 +1,6 @@
 # `07` Post Todo 
 
-In a normal API if we want to add new items to our database, we have to use the POST request. In this exercise we are going to add a POST request to our API that will receive a todo (object with the properties `label` and `done`), and we are going to add into the todos list.
+In a normal API if we want to add new items to our database, we have to use the POST request. In this exercise, we are going to add a POST request to our API that will receive a todo (object with the properties `label` and `done`), and we are going to add into the todos list.
 
 Here is an example of a POST request:
 

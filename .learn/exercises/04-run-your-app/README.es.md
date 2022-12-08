@@ -1,24 +1,13 @@
-# `01` Hello World
+# `04` Run your app
 
-Puedes tener un archivo README el cual será como una página de un libro, sin archivos de código.
+## 📝 Instrucciones:
 
-También puedes agregar un archivo `README.[lenguaje].md` para traducciones, por ejemplo `README.es.md` para español.
+1. Puedes ejecutar la aplicación usando el siguiente comando:
 
-## Inserta videos
-
-Si quieres incluir algún video introductorio para cada ejercicio, agrega la propiedad `intro` en el inicio del README.md para ese ejercicio en particular:
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
+```bash
+npm run start
 ```
 
-Tambien puedes agregar un video explicando la solución para cada ejercicio agregando la propiedad `tutorial` al inicio del markdown del README.md correspondiente:
+## 💡 Pista:
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
++ Este comando se ha configurado en el package.json, puedes verificarlo en el objeto de scripts de este archivo.

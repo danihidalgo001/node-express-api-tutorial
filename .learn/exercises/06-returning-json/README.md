@@ -21,7 +21,7 @@ todos = [
 
 ## 📝 Instructions:
 
-1. Create a global variable todos. Do not declare the variable inside any function, make sure to declare the variable anywhere at the global scope. Make sure the variable contains at least one task item inside with the following structure:
+1. Create a global variable `todos`. Do not declare the variable inside any function, make sure to declare the variable anywhere at the global scope. Make sure the variable contains at least one task item inside with the following structure:
 
 ```js
 [ { "label": "Drink some water", "done": false } ]
