@@ -1,6 +1,6 @@
 # `08.1` Check delete todo
 
-Esto es lo que tienes hasta ahora sobre el extremo `DELETE /todos`, tómate un tiempo para analizar cada línea:
+Esto es lo que tienes hasta ahora sobre el endpoint `DELETE /todos`, tómate un tiempo para analizar cada línea:
 
 ```js
 app.delete('/todos/:todoPosition', (req, res) => {
