@@ -1,6 +1,6 @@
 # `02` Installing Express
 
-En este caso, instalaremos **ExpressJS**, que es el marco que usaremos para crear nuestra API.
+En este caso, instalaremos **ExpressJS**, que es el framework que usaremos para crear nuestra API.
 
 ## 📝 Instrucciones:
 
