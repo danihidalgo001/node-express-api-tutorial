@@ -1,24 +1,20 @@
-# `01` Hello World
+# `08.1` Check delete todo
 
-Puedes tener un archivo README el cual será como una página de un libro, sin archivos de código.
+Esto es lo que tienes hasta ahora sobre el endpoint `DELETE /todos`, tómate un tiempo para analizar cada línea:
 
-También puedes agregar un archivo `README.[lenguaje].md` para traducciones, por ejemplo `README.es.md` para español.
-
-## Inserta videos
-
-Si quieres incluir algún video introductorio para cada ejercicio, agrega la propiedad `intro` en el inicio del README.md para ese ejercicio en particular:
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
+```js
+app.delete('/todos/:todoPosition', (req, res) => {
+  const todoPosition = req.params.todoPosition;
+  todos = todos.filter((value, position) => position != todoPosition)
+  res.status(200).json(todos);
+})
 ```
 
-Tambien puedes agregar un video explicando la solución para cada ejercicio agregando la propiedad `tutorial` al inicio del markdown del README.md correspondiente:
+Utiliza Postman, Insomnia o cualquier otro Creador de solicitudes de API que desees para probar tu API.
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
+|  |  |
+| ------ | -------- |
+| Method | Delete |
+| URL: | /todos/:todoPosition |
+
+

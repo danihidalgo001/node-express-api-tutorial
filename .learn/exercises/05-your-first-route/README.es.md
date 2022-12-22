@@ -1,24 +1,17 @@
-# `01` Hello World
+# `05` Your First Route
 
-Puedes tener un archivo README el cual será como una página de un libro, sin archivos de código.
+¡Agreguemos nuestra primera ruta de nuestra API!🙌
 
-También puedes agregar un archivo `README.[lenguaje].md` para traducciones, por ejemplo `README.es.md` para español.
+## 📝 Instrucciones:
 
-## Inserta videos
+1. Agrega el siguiente código al final del archivo `app.js`:
 
-Si quieres incluir algún video introductorio para cada ejercicio, agrega la propiedad `intro` en el inicio del README.md para ese ejercicio en particular:
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
+```js
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 ```
 
-Tambien puedes agregar un video explicando la solución para cada ejercicio agregando la propiedad `tutorial` al inicio del markdown del README.md correspondiente:
+> Esta es una solicitud GET que devolverá el string: `Hello World!`
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
+2. Ahora, si abres el puerto 8080, deberías poder ver `Hello World!`.

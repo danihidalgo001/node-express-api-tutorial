@@ -18,8 +18,8 @@ app.delete('/signup/:userId', (req, res) => {
 
 2. In the request, remove the todo in the position given by the url parameter.
 
-## 💡 Hint:
+## 💡 Hints:
 
-+ You can test the API using postman [https://www.postman.com/](https://www.postman.com/)
++ You can test the API using postman [https://www.postman.com/](https://www.postman.com/).
 
 + Make sure the port is public.

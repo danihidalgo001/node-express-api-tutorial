@@ -1,24 +1,24 @@
-# `01` Hello World
+# `03` First Express App
 
-Puedes tener un archivo README el cual será como una página de un libro, sin archivos de código.
+Creemos nuestra primera aplicación **ExpressJS**.
 
-También puedes agregar un archivo `README.[lenguaje].md` para traducciones, por ejemplo `README.es.md` para español.
+## 📝 Instrucciones:
 
-## Inserta videos
+1. Crea un archivo llamado `app.js` en la raíz del proyecto.
 
-Si quieres incluir algún video introductorio para cada ejercicio, agrega la propiedad `intro` en el inicio del README.md para ese ejercicio en particular:
+2. Agregua el siguiente código en tu archivo `app.js`:
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
+```js
+const express = require('express');
+const app = express();
+
+app.use(express.json());
+
+const server = app.listen(8080, function () {
+  let port = server.address().port
+  console.log("Server running on port", port)
+})
 ```
 
-Tambien puedes agregar un video explicando la solución para cada ejercicio agregando la propiedad `tutorial` al inicio del markdown del README.md correspondiente:
+> Esto inicializará tu aplicación en el puerto 8080 una vez que ejecutes este archivo.
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```

@@ -1,24 +1,25 @@
-# `01` Hello World
+# `01` Installing Node
 
-Puedes tener un archivo README el cual será como una página de un libro, sin archivos de código.
+Antes de comenzar a construir nuestra API, debemos asegurarnos de que todo esté listo para empezar.
 
-También puedes agregar un archivo `README.[lenguaje].md` para traducciones, por ejemplo `README.es.md` para español.
+## 📝 Instrucciones:
 
-## Inserta videos
+1. Dividir la terminal para tener una terminal vacía para que puedas empezar a usarla.
 
-Si quieres incluir algún video introductorio para cada ejercicio, agrega la propiedad `intro` en el inicio del README.md para ese ejercicio en particular:
+![Split the terminal](../../assets/split-terminal.png)
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
+2. Comprueba si NodeJS está instalado ejecutando este comando: `node -v`. Debería devolver la versión así:
+
+```bash
+v.16.14.0
 ```
 
-Tambien puedes agregar un video explicando la solución para cada ejercicio agregando la propiedad `tutorial` al inicio del markdown del README.md correspondiente:
+3. Si no mostró la versión, significa que no está instalada, entonces puedes seguir estos pasos para instalarla:
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
+    - Ir a https://nodejs.org
+
+    - Descarga la versión recomendada.
+
+    - Ejecuta el instalador.
+
+    - Acepta términos y condiciones y siguiente, siguiente, siguiente...

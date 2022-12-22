@@ -1,24 +1,25 @@
-# `01` Hello World
+# `07` Post Todo 
 
-Puedes tener un archivo README el cual será como una página de un libro, sin archivos de código.
+En una API normal, si queremos agregar nuevos elementos a nuestra base de datos, debemos usar la solicitud POST. En este ejercicio, agregaremos una solicitud POST a nuestra API que recibirá un todo (objeto con las propiedades `label` y `done`), y lo agregaremos a la lista de to-dos.
 
-También puedes agregar un archivo `README.[lenguaje].md` para traducciones, por ejemplo `README.es.md` para español.
+Aquí hay un ejemplo de una solicitud POST:
 
-## Inserta videos
-
-Si quieres incluir algún video introductorio para cada ejercicio, agrega la propiedad `intro` en el inicio del README.md para ese ejercicio en particular:
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
+```js
+app.post('/signup', (req, res) => {
+  const user = req.body;
+  users.push(user);
+  res.status(200).json(users);
+})
 ```
 
-Tambien puedes agregar un video explicando la solución para cada ejercicio agregando la propiedad `tutorial` al inicio del markdown del README.md correspondiente:
+## 📝 Instrucciones:
 
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
+1. Crea una solicitud `POST /todos` que reciba un `todo` del body.
+
+2. En la solicitud, agrega ese `todo` a la lista de `todos`, luego devuelve la lista `todos` actualizada.
+
+## 💡 Pistas:
+
++ Puedes probar la API usando postman [https://www.postman.com/](https://www.postman.com/)
+
++ Asegúrate de que el puerto sea público. 
