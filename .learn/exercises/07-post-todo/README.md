@@ -18,7 +18,7 @@ app.post('/signup', (req, res) => {
 
 2. In the request, add that `todo` to the list of `todos`, then return the `todos` list updated.
 
-## 💡 Hint:
+## 💡 Hints:
 
 + You can test the API using postman [https://www.postman.com/](https://www.postman.com/)
 
