@@ -3,8 +3,14 @@
   "difficulty": "easy",
   "repository": "https://github.com/4GeeksAcademy/node-api-tutorial",
   "duration": 8,
-  "description": "This is an interactive tutorial that will teach you how to create an API with node",
-  "title": "Node API Tutorial",
+  "description": {
+    "us": "This is an interactive tutorial that will teach you how to create an API with node.",
+    "es": "Este es un tutorial interactivo que enseñará como crear una API con Node."
+  },
+  "title": {
+    "us": "Node API Tutorial",
+    "es": "Tutorial API con Node"
+  },
   "slug": "node-api-tutorial",
   "preview": "https://github.com/4GeeksAcademy/node-api-tutorial/blob/master/.learn/assets/preview.png",
   "disabledActions": [
