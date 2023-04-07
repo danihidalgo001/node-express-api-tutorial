@@ -2,20 +2,21 @@
 
 Este es un tutorial interactivo que le enseñará cómo crear una API con Node y Express.
 
-## 🌱 Cómo iniciar este proyecto?
+## 🌱 Cómo comenzar este proyecto
 
-Este proyecto viene con los archivos necesarios para empezar a trabajar, pero tienes dos opciones para empezar:
+Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato.
 
-a) Abrir este enlace con Gitpod en tu navegador: https://gitpod.io#https://github.com/breatheco-de/node-api-tutorial
+Recomendamos abrir este mismo repositorio usando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
 
-b) Clonar este repositorio localmente en tu computador:
-```sh
-$ git clone https://github.com/breatheco-de/node-api-tutorial
+Este es el repositorio que necesitas abrir:
+
+```
+https://github.com/breatheco-de/node-express-api-tutorial
 ```
 
-> Escribe `$ learnpack start` en tu terminal para comenzar los ejercicios.
+**👉 Por favor sigue estos pasos en** [cómo comenzar un proyecto de codificación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
 
-💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
+💡 Importante: Recuerda guardar y cargar tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y cargando el código en su nuevo repositorio usando los comandos `add`, `commit` y `push` desde el terminal git.
 
 ## Acerca del proyecto que vamos a construir
 
