@@ -2,17 +2,15 @@
 
 This is an interactive tutorial that will teach you how to create an API with Node and Express.
 
-> You have initialized the exercises with grading=`incremental`; meaning that your students will complete one single tutorial with clear and autograded steps from beginning to end.
-
 ## 🌱 How to start this project?
 
 This project comes with the necessary files to start working, but you have two options to start:
 
-a) Open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/python-flask-api-tutorial
+a) Open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/node-api-tutorial
 
 b) You can clone this repository on your local computer:
 ```sh
-$ git clone https://github.com/breatheco-de/python-flask-api-tutorial
+$ git clone https://github.com/breatheco-de/node-api-tutorial
 ```
 > Type `$ learnpack start` in your terminal to start the exercises.
 
